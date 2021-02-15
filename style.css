@@ -1,0 +1,267 @@
+@font-face {
+  font-family: "Thin";
+  src: url("./fonts/Montserrat-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url("./fonts/Montserrat-Medium.ttf");
+}
+
+body {
+  font-family: "Medium", Arial, Helvetica, sans-serif;
+  /* font-family: "Thin", Arial, Helvetica, sans-serif; */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(235, 235, 235);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  list-style-type: none;
+  width: 100%;
+  max-width: 1200px;
+}
+
+nav li:last-child {
+  /* border: black solid 2px; */
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgb(191, 170, 211);
+}
+
+.entete {
+  background-image: url(./images/bg.jpg);
+  height: 800px;
+}
+
+.entete-container {
+  text-align: center;
+  color: white;
+}
+
+.entete img {
+  margin-top: 80px;
+  height: 400px;
+}
+
+.entete h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 25px;
+  background: none;
+  color: white;
+  text-transform: uppercase;
+  border: white solid 1px;
+  letter-spacing: 3.5px;
+  font-weight: 600;
+}
+
+.barreblanche {
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+  padding: 50px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  background-color: rgb(235, 235, 235);
+}
+
+.gridinfo {
+  background-color: black;
+}
+
+.gridinfo-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+  gap: 30px;
+  /* height: 800px; */
+}
+
+.gridinfo-container h3 {
+  color: white;
+  margin-top: 40px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.gridinfo-container p {
+  color: white;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+.news button {
+  color: black;
+  border: black solid 1px;
+  padding: 15px;
+}
+
+.newsentete {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 50px;
+}
+
+.newsentete h3 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 2.5px;
+  font-weight: 400;
+}
+
+.newsentete p {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.news {
+  background: rgb(235, 235, 235);
+  padding-bottom: 100px;
+}
+
+.news3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 50px;
+  height: 600px;
+}
+
+.news3 img {
+  display: block;
+  height: 250px;
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+}
+
+.news3 h3 {
+  margin-bottom: 19px;
+}
+
+.news3 p {
+  margin-bottom: 35px;
+}
+
+.news3 a {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.new1,
+.new2,
+.new3 {
+  position: relative;
+}
+
+.new1 a,
+.new2 a,
+.new3 a {
+  position: absolute;
+  bottom: 30px;
+}
+
+.befooter ul {
+  display: grid;
+  grid-template-columns: 30% 20% 20% 20%;
+  /* align-items: center; */
+  text-align: left;
+  height: 400px;
+  padding: 150px;
+  gap: 40px;
+  list-style: none;
+}
+
+.befooter h3 {
+  text-transform: uppercase;
+}
+
+.befooter img {
+  height: 200px;
+  width: 200px;
+}
+
+.contacts i {
+  letter-spacing: 15px;
+  margin-bottom: 40px;
+}
+
+.barregrise {
+  height: 1px;
+  background-color: rgba(156, 156, 156, 0.383);
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.partenaires ul {
+  list-style-type: none;
+  display: flex;
+  height: 200px;
+  margin: 0 auto;
+  width: 80%;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.partenaires h3 {
+  text-transform: uppercase;
+}
+
+.basdepage {
+  background: black;
+  height: 150px;
+}
+
+.basdepage h3 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.basdepage ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 80%;
+  gap: 25px;
+  align-items: center;
+}
+
+.infop p,
+#ensavoir {
+  color: purple;
+  font-weight: 600;
+}
